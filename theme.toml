@@ -13,7 +13,20 @@ demosite = 'https://owner.github.io/repo'
 tags = ['blog', 'company']
 features = ['some', 'awesome', 'features']
 
+[[menus.main]]
+name = 'Home'
+pageRef = '/'
+weight = 10
 
+[[menus.main]]
+name = 'Posts'
+pageRef = '/posts'
+weight = 20
+
+[[menus.main]]
+name = 'Tags'
+pageRef = '/tags'
+weight = 30
 
 # If the theme has a single author
 [author]
