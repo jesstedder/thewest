@@ -1,0 +1,10 @@
+{{ define "main" }}
+<div class="content has-text-centered">
+  
+  <h1 class="is-size-1">{{.Title}}</h1>
+  {{ .Content }}
+  {{ if isset .Site.Params "social"}}  
+    {{ partial "social.html" . }}  
+  {{end}}
+</div>  
+{{ end }}

@@ -1,2 +1,7 @@
-# thewest
-"The West" hugo theme
+# Theme Name
+
+## Features
+
+## Installation
+
+## Configuration

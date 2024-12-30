@@ -1,0 +1,37 @@
+name = 'The West'
+license = 'MIT'
+licenselink = 'https://github.com/jesstedder/aameeting.group/LICENSE'
+description = 'Theme description'
+
+# The home page of the theme, where the source can be found
+homepage = 'https://github.com/jesstedder/aameeting.group'
+
+# If you have a running demo of the theme
+demosite = 'https://owner.github.io/repo'
+
+# Taxonomy terms
+tags = ['blog', 'company']
+features = ['some', 'awesome', 'features']
+
+
+
+# If the theme has a single author
+[author]
+  name = 'Jess Tedder'
+  homepage = 'https://jesstedder.com'
+
+[[params.social]]
+key = 0
+name = "zoom"
+url = "https://zoom.com"
+
+[[params.social]]
+key = 1
+name = "facebook"
+url = "https://www.facebook.com/"
+
+
+[[params.social]]
+key = 3
+name = "email"
+url = "mailto:info@exampleloveandtol.com"
